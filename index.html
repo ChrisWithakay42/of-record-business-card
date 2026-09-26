@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Of Record</title>
+  <meta name="description" content="Of Record: independent, read-only IT assurance for UK schools and trusts. Save our contact details or request a review.">
+  <meta name="theme-color" content="#4f46e5">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="canonical" href="https://chriswithakay42.github.io/BusinessCard/ofrecord.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Of Record">
+  <meta property="og:title" content="Of Record · Independent IT Assurance for Schools and Trusts">
+  <meta property="og:description" content="Every school can say it manages access. Few can prove it. Independent, read-only reviews that turn an IT estate into evidence.">
+  <meta property="og:url" content="https://chriswithakay42.github.io/BusinessCard/ofrecord.html">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="ofrecord-icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="ofrecord-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@700&amp;display=swap">
+  <link rel="stylesheet" href="card.css">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --surface: #ffffff;
+      --text: #050505;
+      --muted: #5b6070;
+      --border: #e6e6e6;
+      --accent: #4f46e5;
+      --accent-ink: #ffffff;
+      --font: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      --font-display: "Playfair Display", Georgia, "Times New Roman", serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #050505;
+        --surface: #111111;
+        --text: #ffffff;
+        --muted: #a1a1aa;
+        --border: #262626;
+      }
+    }
+    .hero { padding-top: 24px; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <header class="hero">
+      <p class="wordmark">Of Record</p>
+      <p class="tagline">Independent, read-only IT assurance for UK schools and trusts.</p>
+    </header>
+
+    <div class="actions">
+      <a class="btn primary" href="ofrecord.vcf" download="Of Record.vcf">
+        <svg><use href="icons.svg#i-download"/></svg> Save contact
+      </a>
+      <button class="btn" id="share" type="button" aria-label="Share this card">
+        <svg><use href="icons.svg#i-share"/></svg>
+      </button>
+      <button class="btn" id="qr-open" type="button" aria-label="Show QR code">
+        <svg><use href="icons.svg#i-qr"/></svg>
+      </button>
+    </div>
+
+    <section class="group">
+      <h2>Get in touch</h2>
+      <ul class="rows">
+        <li class="row">
+          <a href="mailto:hello@ofrecord.uk?subject=Request%20a%20review">
+            <svg><use href="icons.svg#i-calendar"/></svg>
+            <span class="label">Request a review</span>
+            <span class="value">Tell us about your estate</span>
+          </a>
+        </li>
+        <li class="row">
+          <a href="mailto:hello@ofrecord.uk">
+            <svg><use href="icons.svg#i-mail"/></svg>
+            <span class="label">Email</span>
+            <span class="value">hello@ofrecord.uk</span>
+          </a>
+          <button class="copy" type="button" data-copy="hello@ofrecord.uk" aria-label="Copy email address"><svg><use href="icons.svg#i-copy"/></svg></button>
+        </li>
+        <li class="row">
+          <a href="https://ofrecord.uk" target="_blank" rel="noopener">
+            <svg><use href="icons.svg#i-globe"/></svg>
+            <span class="label">Website</span>
+            <span class="value">ofrecord.uk</span>
+          </a>
+          <button class="copy" type="button" data-copy="https://ofrecord.uk" aria-label="Copy website address"><svg><use href="icons.svg#i-copy"/></svg></button>
+        </li>
+      </ul>
+    </section>
+
+    <footer>Of Record is a trading name of Code Withakay Ltd.</footer>
+  </main>
+
+  <dialog id="qr" aria-labelledby="qr-title">
+    <h2 id="qr-title">Of Record</h2>
+    <p>Scan to open this card</p>
+    <img src="ofrecord-qr.png" width="370" height="370" alt="QR code linking to this card">
+    <button class="btn" type="button" data-close>Close</button>
+  </dialog>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="card.js"></script>
+</body>
+</html>

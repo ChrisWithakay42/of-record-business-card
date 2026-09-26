@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;;;;
+FN:Of Record
+ORG:Of Record
+X-ABShowAs:COMPANY
+EMAIL;TYPE=INTERNET,WORK:hello@ofrecord.uk
+URL:https://ofrecord.uk
+NOTE:Independent, read-only IT assurance for UK schools and trusts. Digital card: https://chriswithakay42.github.io/BusinessCard/ofrecord.html
+END:VCARD
