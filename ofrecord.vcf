@@ -4,7 +4,9 @@ N:;;;;
 FN:Of Record
 ORG:Of Record
 X-ABShowAs:COMPANY
+TEL;TYPE=WORK,VOICE:+447384403753
 EMAIL;TYPE=INTERNET,WORK:hello@ofrecord.uk
 URL:https://ofrecord.uk
-NOTE:Independent, read-only IT assurance for UK schools and trusts. Digital card: https://chriswithakay42.github.io/BusinessCard/ofrecord.html
+ADR;TYPE=WORK:;;;London;;;United Kingdom
+NOTE:Independent, read-only IT assurance for UK schools and trusts. Digital card: https://codewithakay.gitlab.io/of-record/business-card/
 END:VCARD

@@ -1,0 +1,11 @@
+{
+  "name": "Of Record",
+  "short_name": "Of Record",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    { "src": "ofrecord-icon.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
