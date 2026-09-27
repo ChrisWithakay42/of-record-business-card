@@ -46,12 +46,16 @@
       }
     }
     .hero { padding-top: 24px; }
+    .hero img { max-width: 320px; }
   </style>
 </head>
 <body>
   <main class="card">
     <header class="hero">
-      <p class="wordmark">Of Record</p>
+      <picture>
+        <source srcset="of-record-lockup-gradient.svg" media="(prefers-color-scheme: dark)">
+        <img src="of-record-lockup-on-light.svg" width="376" height="78" alt="Of Record">
+      </picture>
       <p class="tagline">Independent, read-only IT assurance for UK schools and trusts.</p>
     </header>
 
